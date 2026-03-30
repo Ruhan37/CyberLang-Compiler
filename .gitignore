@@ -1,0 +1,11 @@
+# Build outputs
+compiler
+*.o
+
+# Generated lexer/parser files
+src/lex.yy.c
+src/parser.tab.c
+src/parser.tab.h
+
+# macOS noise
+.DS_Store
